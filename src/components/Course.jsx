@@ -5,7 +5,8 @@ function Course() {
         <>
             <div className="course">
                 <div className="img-container">
-                    <img src="/images/course-1.jpg" alt="" />
+                    <img src="/images/course-2.jpg" alt="" />
+                    <div className="showcase"></div>
                     <div className="module">Development</div>
                 </div>
                 <div className="course-container">

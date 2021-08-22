@@ -34,7 +34,8 @@
     margin-top: 10px;
   }
   .sign-in-model p span {
-    color: #3B5BFF;
+    /* color: #3B5BFF; */
+    color: #F0A920;
   }
   .input-container {
     display: -ms-flexbox; /* IE10 */
@@ -65,7 +66,8 @@
   }
   
   .input-container:focus-within {
-    border: 2px solid #2B4EFF;
+    /* border: 2px solid #2B4EFF; */
+    border: 2px solid #F0A920;
   }
   
   

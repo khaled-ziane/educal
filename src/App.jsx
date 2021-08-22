@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './App.css';
+import ScrollToTop from "./components/ScrollToTop";
 import Header from './components/Header';
 import Main from './components/Main';
 import Courses from './components/Courses'
@@ -22,16 +23,12 @@ import {
 } from "react-router-dom";
 
 
-
-
-
-
-
 function App() {
 
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Header />
         <Switch>
           <Route exact path="/">
@@ -41,7 +38,7 @@ function App() {
             <Bac />
             <Instructors />
           </Route>
-          <Route exact path="/Course/Course_details">
+          <Route exact path="/course/course_details">
             <Course_details />
           </Route>
           <Route exact path="/login">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './signin.css'
 
 function SignIn() {
@@ -34,7 +35,7 @@ function SignIn() {
                             </div>
                             <div className="">
                                 <button className="btn color-primary" style={{ width: '100%' }}>Create</button>
-                                <p>Already have account? <span>Sign In</span></p>
+                                <p>Already have account? <Link to="/login"><span>Sign In</span> </Link> </p>
                             </div>
                         </form>
                     </div>

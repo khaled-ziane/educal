@@ -20,16 +20,31 @@
 }
 .course .img-container {
     position: relative;
+    z-index: 100;
+    /* border: 1px solid red; */
 }
-.course .img-container img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px 5px 0 0;
-    cursor: pointer;
-}
-.course .img-container img:hover {
-    opacity: 0.9;
 
+.course .img-container img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.course .img-container .showcase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;  
+  transition: all 0.1s ease-in-out;
+}
+.course .img-container .showcase:hover {
+    background: rgba(0, 0, 0, 0.2);
 }
 .course .img-container .module {
     color: #fff;
