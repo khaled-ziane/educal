@@ -1,0 +1,53 @@
+.download {
+  padding: 30px 0;
+  /* position: relative;
+  top: 123px; */
+  position: absolute;
+  top: -27%;
+  width: 100%;
+  
+}
+.download-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background: #2b4eff;
+  background: linear-gradient(to right, #2b4eff, orange);
+  border-radius: 10px;
+}
+.download-container h1 {
+  color: #fff;
+  font-size: 45px;
+}
+.download-apps {
+  display: flex;
+}
+.download-container .store {
+  display: flex;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  background: #fff;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+.download-container .store:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #dddddd;
+}
+.download-apps .apple-store {
+  margin-right: 10px;
+}
+
+.download-container i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.download-container p {
+  font-size: 15px;
+}
